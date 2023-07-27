@@ -12,7 +12,7 @@
 
 6. Download a model to the `models/` folder
    - Here is a convenient source of models that can be downloaded: https://huggingface.co/TheBloke
-   - For example, download 4-bit quantized WizardLM-7B from here: https://huggingface.co/TheBloke/wizardLM-7B-GGML/blob/main/wizardLM-7B.ggmlv3.q4_0.bin
+   - For example, download 4-bit quantized WizardLM-7B from here (we recommend this model): https://huggingface.co/TheBloke/wizardLM-7B-GGML/blob/main/wizardLM-7B.ggmlv3.q4_0.bin
 
 ### Serve the model
 
