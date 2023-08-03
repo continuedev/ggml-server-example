@@ -20,7 +20,7 @@
 
 ### Use with Continue
 
-8. To set this as your default model in Continue, you can open `~/.continue/config.json` either manually or using the `/config` slash command in Continue. Then, set `"default_model": "ggml"`, reload your VS Code window, and you're good to go!
+8. To set this as your default model in Continue, you can open `~/.continue/config.json` either manually or using the `/config` slash command in Continue. Then, import the `GGML` class (`from continuedev.src.continuedev.libs.llm.ggml import GGML`), set `"default_model": "default=GGML(max_context_length=2048)"`, reload your VS Code window, and you're good to go!
 
 ---
 
